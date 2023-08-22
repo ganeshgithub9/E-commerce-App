@@ -9,7 +9,7 @@ function ProductCard({product,addQuantity,cart,increment,setCart}){
             <h3>{product.title}</h3>
             <div>{product.category}</div>
             <div>Rs.{product.price.value}</div>
-            <Rating/>
+            <Rating rating={product.rating.value}/>
             <AddToCart addQuantity={addQuantity} product={product} cart={cart} increment={increment} setCart={setCart}/>
         </div>
         </div>

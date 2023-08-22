@@ -2,9 +2,9 @@ import {useState} from "react";
 
 export default function AddToCart({product,addQuantity,cart,increment,setCart}){
     const [quantity,setQuantity]=useState(0);
-    const add=()=>{
-        addQuantity(product);
-    }
+    // const add=()=>{
+    //     addQuantity(product);
+    // }
     const inc=()=>{
         const newCart={...cart};
         if(!newCart[product.id]){
