@@ -1,0 +1,15 @@
+.product{
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    display: flex;
+    flex-flow: column wrap;
+
+    align-items: center;
+}
+.productCard{
+    display: inline-block;
+}
+h3{
+    border: 2px solid red;
+}
